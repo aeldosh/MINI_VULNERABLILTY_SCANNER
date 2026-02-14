@@ -1,0 +1,47 @@
+# ---------------------------
+# Python cache & compiled files
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---------------------------
+# Virtual environments
+# ---------------------------
+venv/
+env/
+.venv/
+
+# ---------------------------
+# Environment variables (API keys, secrets)
+# ---------------------------
+.env
+.env.*
+
+# ---------------------------
+# Logs & scan outputs
+# ---------------------------
+*.log
+scan_results/
+output/
+reports/
+
+# ---------------------------
+# OS-specific files
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# IDE / Editor files
+# ---------------------------
+.vscode/
+.idea/
+*.swp
+
+# ---------------------------
+# Test & temp files
+# ---------------------------
+*.tmp
+*.bak
